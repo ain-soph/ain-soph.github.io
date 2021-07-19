@@ -38,7 +38,6 @@ preprints:
     {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}.<br>
     {% if pub.address %}{{pub.address}}.
     {% endif %}{% if pub.slides %}[Slides]({{pub.slides}}).
-    {% endif %}{% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
     {% endif %}
 {% endunless %}
@@ -46,3 +45,19 @@ preprints:
 
 
 # Preprints
+
+{% for preprint in page.preprints %}
+{% unless preprint.hidden %}
+  - {% if preprint.url %} [{{preprint.title}}]({{preprint.url}}).
+    {% else %} {{preprint.title}}.
+    {% endif %}{% if preprint.type %}({{preprint.type}})
+    {% endif %}<br>
+    {{preprint.author}}.<br>
+    {% if preprint.type == 'Technical Report' %}{{preprint.number}}
+    {% endif %}{{preprint.booktitle}}{{preprint.school}}{{preprint.journal}}.<br>
+    {% if preprint.address %}{{preprint.address}}.
+    {% endif %}{% if preprint.slides %}[Slides]({{preprint.slides}}).
+    {% endif %}{% if preprint.bibtex %}[Bibtex]({{preprint.bibtex}}).
+    {% endif %}
+{% endunless %}
+{% endfor %}
