@@ -29,16 +29,16 @@ preprints:
 
 {% for pub in page.pubs %}
 {% unless pub.hidden %}
-  - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
-    {% else %} {{pub.title}}.
+  - {% if pub.url %} [{{pub.title}}]({{pub.url}})
+    {% else %} {{pub.title}}
     {% endif %}{% if pub.type %}({{pub.type}})
     {% endif %}<br>
-    {{pub.author}}.<br>
+    {{pub.author}}<br>
     {% if pub.type == 'Technical Report' %}{{pub.number}}
-    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}.<br>
-    {% if pub.address %}{{pub.address}}.
-    {% endif %}{% if pub.slides %}[Slides]({{pub.slides}}).
-    {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
+    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
+    {% if pub.address %}{{pub.address}}
+    {% endif %}{% if pub.slides %}[Slides]({{pub.slides}})
+    {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}})
     {% endif %}
 {% endunless %}
 {% endfor %}
@@ -48,16 +48,16 @@ preprints:
 
 {% for preprint in page.preprints %}
 {% unless preprint.hidden %}
-  - {% if preprint.url %} [{{preprint.title}}]({{preprint.url}}).
-    {% else %} {{preprint.title}}.
+  - {% if preprint.url %} [{{preprint.title}}]({{preprint.url}})
+    {% else %} {{preprint.title}}
     {% endif %}{% if preprint.type %}({{preprint.type}})
     {% endif %}<br>
-    {{preprint.author}}.<br>
+    {{preprint.author}}<br>
     {% if preprint.type == 'Technical Report' %}{{preprint.number}}
-    {% endif %}{{preprint.booktitle}}{{preprint.school}}{{preprint.journal}}.<br>
-    {% if preprint.address %}{{preprint.address}}.
-    {% endif %}{% if preprint.slides %}[Slides]({{preprint.slides}}).
-    {% endif %}{% if preprint.bibtex %}[Bibtex]({{preprint.bibtex}}).
+    {% endif %}{{preprint.booktitle}}{{preprint.school}}{{preprint.journal}}<br>
+    {% if preprint.address %}{{preprint.address}}
+    {% endif %}{% if preprint.slides %}[Slides]({{preprint.slides}})
+    {% endif %}{% if preprint.bibtex %}[Bibtex]({{preprint.bibtex}})
     {% endif %}
 {% endunless %}
 {% endfor %}
