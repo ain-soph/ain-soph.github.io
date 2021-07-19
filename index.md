@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="/images/renpang4.jpg" class="floatpic" width="200" height="300">
+<img src="/images/renpang4.png" class="floatpic" width="200" height="300">
 My name is Ren Pang. I am an IST PhD student in PSU.
 
 # Timeline
