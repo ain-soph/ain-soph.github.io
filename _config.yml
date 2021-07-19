@@ -6,10 +6,10 @@ url: https://ain-soph.github.io
 
 # Owner/author information
 owner:
-  name:           Ren Pang
-  avatar:         renpang.jpg
-#  bio:
-  email:          rbp5354@psu.edu
+  name: Ren Pang
+  avatar: renpang.jpg
+  #  bio:
+  email: rbp5354@psu.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:
@@ -35,7 +35,7 @@ links:
   - title: Publications
     url: /publications/
   - title: Resume
-    url: /resume/
+    url: /publications/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/New_York
@@ -46,7 +46,7 @@ highlighter: rouge
 # pygments: true
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:categories/:title
 
 kramdown:
   auto_ids: true
@@ -63,6 +63,17 @@ kramdown:
   #   coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+    "less",
+    "minimal-mistakes.sublime-project",
+    "minimal-mistakes.sublime-workspace",
+  ]
