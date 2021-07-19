@@ -19,10 +19,10 @@ pubs:
     title: Graph Backdoor
     booktitle: "USENIX Security '21"
     url: "https://arxiv.org/abs/2006.09539"
-preprints:
-  - author: Ren Pang, Zheng Zhang, Xiangshan Gao, Zhaohan Xi, Shouling Ji, Cheng Peng, Ting Wang
-    title: "TROJANZOO: Everything you ever wanted to know about neural backdoors (but were afraid to ask)"
-    url: "https://arxiv.org/abs/2012.09302"
+# preprints:
+#   - author: Ren Pang, Zheng Zhang, Xiangshan Gao, Zhaohan Xi, Shouling Ji, Cheng Peng, Ting Wang
+#     title: "TROJANZOO: Everything you ever wanted to know about neural backdoors (but were afraid to ask)"
+#     url: "https://arxiv.org/abs/2012.09302"
 ---
 
 # Publications
@@ -43,7 +43,7 @@ preprints:
     {% endif %}
 {% endunless %}
 {% endfor %}
-
+<!-- 
 # Preprints
 
 {% for pub in page.preprints %}
@@ -61,4 +61,4 @@ preprints:
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
     {% endif %}
 {% endunless %}
-{% endfor %}
+{% endfor %} -->
