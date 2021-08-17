@@ -17,7 +17,7 @@ pubs:
     url: "https://arxiv.org/abs/2101.09301"
   - author: Zhaohan Xi, __Ren Pang__, Shouling Ji, Ting Wang
     title: Graph Backdoor
-    booktitle: "USENIX Security '21"
+    booktitle: "USENIX Security'21"
     url: "https://arxiv.org/abs/2006.09539"
 preprints:
   - author: __Ren Pang__, Zheng Zhang, Xiangshan Gao, Zhaohan Xi, Shouling Ji, Cheng Peng, Ting Wang
