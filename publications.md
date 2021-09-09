@@ -19,6 +19,10 @@ pubs:
     title: Graph Backdoor
     booktitle: "USENIX Security'21"
     url: "https://arxiv.org/abs/2006.09539"
+  - author: __Ren Pang__, Zhaohan Xi, Shouling Ji, Xiapu Luo, Ting Wang
+    title: On the Security Risks of AutoML (conditionally accepted)
+    booktitle: "USENIX Security'22"
+    # url: "https://arxiv.org/abs/2006.09539"
 preprints:
   - author: __Ren Pang__, Zheng Zhang, Xiangshan Gao, Zhaohan Xi, Shouling Ji, Cheng Peng, Ting Wang
     title: "TROJANZOO: Everything you ever wanted to know about neural backdoors (but were afraid to ask)"
