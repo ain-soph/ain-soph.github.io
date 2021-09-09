@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-My name is Ren Pang. I am an IST PhD student in PSU and doing researches about security of Deep Learning.
+My name is Ren Pang. I am an IST PhD student in PSU and doing researches about security of Deep Learning with advisor Ting Wang.
 
 # Timeline
 ## 2014-2018 BSc. Mathematics
