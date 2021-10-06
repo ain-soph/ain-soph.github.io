@@ -37,4 +37,3 @@ I'm trying to participate in the development and maintenance of many open-source
   [#29](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
 - [torchvision](https://github.com/pytorch/vision)  
   [#3215](https://github.com/pytorch/vision/pull/3215)
----
