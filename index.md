@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /github/index.html
+permalink: /index.html
 title: GitHub
 ---
 
