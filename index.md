@@ -4,9 +4,7 @@ permalink: /index.html
 title: GitHub
 ---
 
-# GitHub
-
-## My repos
+# My Repos
 - TrojanZoo [[GitHub](https://github.com/ain-soph/trojanzoo)] [[Docs](https://ain-soph.github.io/trojanzoo)]
   > TrojanZoo provides a universal pytorch platform to conduct security researches (especially backdoor attacks/defenses) of image classification in deep learning. All my research studies are using this powerful library. Docs and unit-tests are still in development.
   
@@ -28,7 +26,8 @@ title: GitHub
   Published on [pypi](https://pypi.org/project/trojanzoo-sphinx-theme/), [docker](https://hub.docker.com/r/local0state/base) and [github packages](https://github.com/ain-soph/base/pkgs/container/base).
 
 
-## Contributor
+# As a Contributor
+I'm trying to participate in the development and maintenance of many open-source packages.
 
 - [torchvision](https://github.com/pytorch/vision)
   - [#3215](https://github.com/pytorch/vision/pull/3215)
