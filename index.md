@@ -29,12 +29,12 @@ Published on [pypi](https://pypi.org/project/trojanzoo-sphinx-theme/), [docker](
 # As a Contributor
 I'm trying to participate in the development and maintenance of many open-source packages.
 
-- [matplotlib](https://github.com/matplotlib/matplotlib)
-  - [#20101](https://github.com/matplotlib/matplotlib/pull/20101)
-- [pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme)
-  - [#88](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)
-- [sphinxcontrib-katex](https://github.com/hagenw/sphinxcontrib-katex)
-  - [#29](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
-- [torchvision](https://github.com/pytorch/vision)
-  - [#3215](https://github.com/pytorch/vision/pull/3215)
+- [matplotlib](https://github.com/matplotlib/matplotlib)  
+  [#20101](https://github.com/matplotlib/matplotlib/pull/20101)
+- [pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme)  
+  [#88](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)
+- [sphinxcontrib-katex](https://github.com/hagenw/sphinxcontrib-katex)  
+  [#29](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
+- [torchvision](https://github.com/pytorch/vision)  
+  [#3215](https://github.com/pytorch/vision/pull/3215)
 ---
