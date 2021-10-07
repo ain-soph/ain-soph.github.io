@@ -52,13 +52,13 @@ preprints:
 
 {% for preprint in page.preprints %}
 {% unless preprint.hidden %}
-  - {% if preprint.url %} [{{preprint.title}}]({{preprint.url}})
-    {% else %} {{preprint.title}}
+  - {% if preprint.url %}<a href="{{preprint.url}}"><span style="color:#ee4c2c">{{preprint.title}}</span></a>
+    {% else %}<span style="color:#ee4c2c">{{preprint.title}}</span>
     {% endif %}{% if preprint.type %}({{preprint.type}})
     {% endif %}<br>
     {{preprint.author}}<br>
     {% if preprint.type == 'Technical Report' %}{{preprint.number}}
-    {% endif %}{{preprint.booktitle}}{{preprint.school}}{{preprint.journal}}<br>
+    {% endif %}<span style="color:#792fe4">{{preprint.booktitle}}{{preprint.school}}{{preprint.journal}}<br></span>
     {% if preprint.address %}{{preprint.address}}
     {% endif %}{% if preprint.slides %}[Slides]({{preprint.slides}})
     {% endif %}{% if preprint.bibtex %}[Bibtex]({{preprint.bibtex}})
