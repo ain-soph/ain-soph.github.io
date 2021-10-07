@@ -20,7 +20,7 @@ pubs:
     booktitle: "USENIX Security'21"
     url: "https://arxiv.org/abs/2006.09539"
   - author: __Ren Pang__, Zhaohan Xi, Shouling Ji, Xiapu Luo, Ting Wang
-    title: On the Security Risks of AutoML (conditionally accepted)
+    title: On the Security Risks of AutoML
     booktitle: "USENIX Security'22"
     # url: "https://arxiv.org/abs/2006.09539"
 preprints:
