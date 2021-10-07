@@ -23,7 +23,7 @@ Published on [pypi](https://pypi.org/project/trojanzoo-sphinx-theme/).
 ### base [[<span style="color:#ee4c2c">GitHub</span>](https://github.com/ain-soph/base)]
 > My personal automatic workflow to update docker environment of deep learning.
   
-Published on [pypi](https://pypi.org/project/trojanzoo-sphinx-theme/), [docker](https://hub.docker.com/r/local0state/base) and [github packages](https://github.com/ain-soph/base/pkgs/container/base).
+Published on [docker](https://hub.docker.com/r/local0state/base) and [github packages](https://github.com/ain-soph/base/pkgs/container/base).
 
 
 ## As a Contributor
