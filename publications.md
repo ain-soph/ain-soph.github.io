@@ -33,13 +33,13 @@ preprints:
 
 {% for pub in page.pubs %}
 {% unless pub.hidden %}
-  - {% if pub.url %} [{{pub.title}}]({{pub.url}})
-    {% else %} {{pub.title}}
+  - {% if pub.url %}<a href="{{pub.url}}"><span style="color:#ee4c2c">{{pub.title}}</span></a>
+    {% else %}<span style="color:#ee4c2c">{{pub.title}}</span>
     {% endif %}{% if pub.type %}({{pub.type}})
     {% endif %}<br>
     {{pub.author}}<br>
     {% if pub.type == 'Technical Report' %}{{pub.number}}
-    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
+    {% endif %}<span style="color:#792fe4">{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br></span>
     {% if pub.address %}{{pub.address}}
     {% endif %}{% if pub.slides %}[Slides]({{pub.slides}})
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}})
