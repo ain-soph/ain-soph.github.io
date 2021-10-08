@@ -6,4 +6,4 @@ title: Resume
 
 <a style="color:#ee4c2c" href="https://ain-soph.github.io/resume/cv.pdf">Download PDF</a>
 
-<embed src="https://ain-soph.github.io/resume/cv.pdf"></iframe>
+<embed src="https://ain-soph.github.io/resume/cv.pdf"></embed>
