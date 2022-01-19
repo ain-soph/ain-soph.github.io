@@ -1,0 +1,156 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+\documentclass{resume} 
+
+\usepackage[T1]{fontenc}
+\usepackage{crimson}
+\usepackage{enumitem}
+
+\usepackage{url}
+
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+
+
+\rhead{{\it R. Pang}} % put text in header (right side)
+\rfoot{{\it p. \thepage}}
+\cfoot{}                                  % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+\name{REN PANG\\[11pt]}% the \\[12pt] adds a blank line after name
+
+
+\address{\centerline{College of Information Sciences and Technology, the Pennsylvania State University}\\
+\centerline{{\it Email}: rbp5354@psu.edu \quad {\it Tel}: (484) 747-2401 \quad {\it Web}: \url{https://ain-soph.github.io}}}      
+                                      
+% \address{{\bf Permanent Address} \\ 72 Trolley Lane \\ Utica, NY 13502\\
+%   (315) 493-8621 }
+
+
+\begin{resume}
+ 
+\section{A. Research Interests}
+\vspace{8pt} % provide vertical space between section title and contents
+Deep Learning Security: Adversarial Robustness; Neural Backdoors
+
+AutoML: Neural Architecture Search; Auto Augment
+
+Others: Lifelong Learning; Dataset Condensation
+% My current research focuses on developing rigorous yet practical solutions to improve the security assurance, privacy preservation, and decision-making transparency of AI systems and applications.    % TODO
+
+\vspace{0.2in} 
+\section{B. Education Background} 
+\vspace{8pt}
+
+Ph.D., Information Sciences and Technology, Pennsylvania State University  \hfill 2019--present
+
+Ph.D., Computer Science and Engineering, Lehigh University (transferred)  \hfill 2018--2019
+
+BSc., Mathematics, Nankai University   \hfill 2014-2018
+
+\vspace{0.2in} 
+\section{C. Publications}
+\vspace{24pt}
+
+\begin{enumerate}[labelsep=15pt, parsep=8pt, resume]
+
+\item TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors,\\
+\textbf{R. Pang}, Z. Zhang, X. Gao, Z. Xi, S. Ji, P. Cheng, and T. Wang,\\
+Proceedings of {\it the IEEE European Symposium on Security and Privacy} (EuroS\&P), 2022.
+
+\item On the Security Risks of AutoML,\\
+\textbf{R. Pang}, Z. Xi, S. Ji, X. Luo, and T. Wang,\\
+Proceedings of {\it the USENIX Security Symposium} (SECURITY), 2022.
+
+\item Graph Backdoor,\\
+Z. Xi, \textbf{R. Pang}, S. Ji, and T. Wang,\\
+Proceedings of {\it the USENIX Security Symposium} (SECURITY), 2021.
+
+\item i-Algebra: Towards Interactive Interpretability of Deep Neural Networks,\\
+X. Zhang, \textbf{R. Pang}, S. Ji, F. Ma, and T. Wang,\\
+Proceedings of {\it the AAAI Conference on Artificial Intelligence} (AAAI), 2021.
+
+\item AdvMind: Inferring Adversary Intent of Black-Box Attacks,\\
+\textbf{R. Pang}, X. Zhang, S. Ji, X. Luo, and T. Wang,\\
+Proceedings of {\it the ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (KDD), 2020.
+
+\item A Tale of Evil Twins: Adversarial Inputs versus Poisoned Models,\\
+\textbf{R. Pang}, H. Shen, X. Zhang, S. Ji, Y. Vorobeychik, X. Luo, A. Liu, and T. Wang,\\
+Proceedings of {\it the ACM Conference on Computer and Communications Security} (CCS), 2020.
+
+\end{enumerate}
+
+\newpage
+
+\section{D. Open-Sourced Projects}
+\vspace{8pt}
+
+\section{Owner}
+\vspace{8pt}
+
+AlpsPlot \\
+\url{https://github.com/ain-soph/alpsplot}
+
+TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors \\
+\url{https://github.com/ain-soph/trojanzoo}
+
+TrojanZoo Sphinx Theme \\
+\url{https://github.com/ain-soph/trojanzoo_sphinx_theme}
+
+\section{Contributor}
+\vspace{8pt}
+
+matplotlib; pytorch\_sphinx\_theme; sphinxcontrib-katex; torchvision
+
+
+\vspace{0.2in} 
+\section{E. Teaching Assistant Experience} 
+\vspace{8pt}
+
+CYBER 497: Machine Learning Security (Penn State), 2020 Spring
+
+CSE 017: Structured Programming and Data Structures (Lehigh), 2018 Fall
+
+
+\vspace{0.2in} 
+\section{F. Technical Skills} 
+\vspace{8pt}
+
+\section{Language}
+\vspace{8pt}
+
+Python; Java; C++; MatLab; Bash; LaTeX; HTML; JavaScript
+
+\section{Package}
+\vspace{8pt}
+
+pytorch; matplotlib; sphinx; jinja; pytest
+
+\section{Tools}
+\vspace{8pt}
+
+Auto CI; Docker; GitHub Actions
+
+\end{resume} 
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
