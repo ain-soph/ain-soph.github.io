@@ -39,12 +39,7 @@
  
 \section{A. Research Interests}
 \vspace{8pt} % provide vertical space between section title and contents
-Deep Learning Security: Adversarial Robustness; Neural Backdoors
-
-AutoML: Neural Architecture Search; Auto Augment
-
-Others: Lifelong Learning; Dataset Condensation
-% My current research focuses on developing rigorous yet practical solutions to improve the security assurance, privacy preservation, and decision-making transparency of AI systems and applications.    % TODO
+My current research focuses on the security of deep learning, including adversarial robustness and neural backdoors. Besides, I'm also interested in exploring security issues in other learning tasks, such as neural architecture search (NAS) and lifelong learning.
 
 \vspace{0.2in} 
 \section{B. Education Background} 
@@ -88,22 +83,48 @@ Proceedings of {\it the ACM Conference on Computer and Communications Security} 
 
 \end{enumerate}
 
-\newpage
+\section{D. Research Projects}
+\vspace{24pt}
 
-\section{D. Open-Sourced Projects}
+\begin{enumerate}[labelsep=15pt, parsep=8pt]
+
+\item Auto Augment and neural architecture search (NAS)\\
+The work aims to build a bridge between auto augment and NAS, which are the 2 main categories in AutoML. We are also interested in the possible security concerns under this new scenario.
+
+\item Vulnerabilities and Robustness in AutoML\\
+We propose that Neural-Architecture-Search(NAS) algorithms introduce vulnerabilities of different kinds of attacks. Compared with human-designed models, the DARTS-like models tend to be more sensitive against PGD, TrojanNN, Membership Inference, etc.
+
+\item Vulnerabilities and Robustness in Dataset Condensation\\
+The project evaluates security concerns during dataset condensation and tries to develop a new attack approach to embed backdoors in the condensed data. 
+
+\item Backdoors in Neural Networks\\
+We construct a universal platform (TrojanZoo) that contains state-of-the-art works on backdoor attacks and defenses, evaluate the performance of different methods under the same metrics, and explore the underlying mechanism of backdoors in neural networks.
+
+\item Detection of Black-box Adversarial Attacks\\
+The project develops a novel estimation model to infer the adversary intent of black-box adversarial attacks.
+
+\item Adversarial Vulnerabilities in Neural Networks\\
+My work explores the mutual reinforcement effects between two attack vectors in deep learning: adversarial inputs and poisoned models, and designs a unified framework to control the trade-offs. The framework can be easily extended to the backdoor scenario and lead to a new powerful attack (IMC).
+
+\end{enumerate}
+
+\section{E. Open-Sourced Projects}
 \vspace{8pt}
 
 \section{Owner}
 \vspace{8pt}
 
 AlpsPlot \\
-\url{https://github.com/ain-soph/alpsplot}
+\url{https://github.com/ain-soph/alpsplot} \\
+My personal python plotting library of alps-lab style using matplotlib.
 
 TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors \\
-\url{https://github.com/ain-soph/trojanzoo}
+\url{https://github.com/ain-soph/trojanzoo} \\
+TrojanZoo provides a universal pytorch platform to conduct security researches (especiallybackdoor attacks/defenses) of image classification in deep learning. All my research studiesare using this powerful library. Docs and unit-tests are still in development.
 
 TrojanZoo Sphinx Theme \\
-\url{https://github.com/ain-soph/trojanzoo_sphinx_theme}
+\url{https://github.com/ain-soph/trojanzoo_sphinx_theme} \\
+I modify pytorch\_sphinx\_theme, remove auxiliary items and make it a generalized theme.It supports easy customization in your project without touching the package contents.
 
 \section{Contributor}
 \vspace{8pt}
@@ -112,32 +133,13 @@ matplotlib; pytorch\_sphinx\_theme; sphinxcontrib-katex; torchvision
 
 
 \vspace{0.2in} 
-\section{E. Teaching Assistant Experiences} 
+\section{E. Teaching Assistant Experience}
 \vspace{8pt}
 
 CYBER 497: Machine Learning Security (Penn State), 2020 Spring
 
 CSE 017: Structured Programming and Data Structures (Lehigh), 2018 Fall
 
-
-\vspace{0.2in} 
-\section{F. Technical Skills} 
-\vspace{8pt}
-
-\section{Language}
-\vspace{8pt}
-
-Python; Java; C++; MatLab; Bash; LaTeX; HTML; JavaScript
-
-\section{Package}
-\vspace{8pt}
-
-pytorch; matplotlib; sphinx; jinja; pytest
-
-\section{Tools}
-\vspace{8pt}
-
-Auto CI; Docker; GitHub Actions
 
 \end{resume} 
 \end{document}
