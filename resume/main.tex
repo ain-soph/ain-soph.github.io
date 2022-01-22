@@ -39,7 +39,8 @@
  
 \section{A. Research Interests}
 \vspace{8pt} % provide vertical space between section title and contents
-My current research focuses on the security of deep learning, including adversarial robustness and neural backdoors. Besides, I'm also interested in exploring security issues in other learning tasks, such as neural architecture search (NAS) and lifelong learning.
+My current research focuses on understanding and tackling the security and privacy challenges arising in the advances of deep learning and artificial intelligence in general.
+%including adversarial robustness and neural backdoors. Besides, I'm also interested in exploring security issues in other learning tasks, such as neural architecture search (NAS) and lifelong learning.
 
 \vspace{0.2in} 
 \section{B. Education Background} 
@@ -83,76 +84,80 @@ Proceedings of {\it the ACM Conference on Computer and Communications Security} 
 
 \end{enumerate}
 
+\vspace{0.2in} 
 \section{D. Research Projects}
 \vspace{24pt}
 
-\begin{enumerate}[labelsep=15pt, parsep=8pt]
+\begin{enumerate}[labelsep=18pt, parsep=8pt]
 
-\item Auto-Augment and Neural-Architecture-Search(NAS)\\
-The work aims to build a bridge between Auto-Augment and NAS, which are the 2 main categories in AutoML. We are also interested in the possible security concerns under this new scenario.
+\item {\em Bridging Auto-Augment and Neural-Architecture-Search}\\
+This ongoing project aims to bridge Auto-Augment and NAS, two major AutoML tasks, and also explore the potential security risks in their integration.
 
-\item Vulnerabilities and Robustness in AutoML\\
-We propose that Neural-Architecture-Search(NAS) algorithms introduce vulnerabilities of different kinds of attacks. Compared with human-designed models, the DARTS-like models tend to be more sensitive against PGD, TrojanNN, Membership Inference, etc.
+\item {\em Encapsulating Attack Robustness}\\
+This ongoing project aims to achieve efficient and robust learning via synthesizing compressed versions of given datasets, on which the training bestows models with both accuracy and robustness.  
 
-\item Vulnerabilities and Robustness in Dataset Condensation\\
-The project evaluates security concerns during dataset condensation and tries to develop a new attack approach to embed backdoors in the condensed data. 
+\item {\em  Evaluating Neural Backdoors}\\
+This project builds a universal platform (TrojanZoo) that incorporate the state-of-the-art work on neural backdoors, conducts a comprehensive evaluation of existing attacks and models, and exposes the intricate design spectrum for both attackers and defenders. The findings are published in IEEE EuroS\&P'22.
 
-\item Backdoors in Neural Networks\\
-We construct a universal platform (TrojanZoo) that contains state-of-the-art works on backdoor attacks and defenses, evaluate the performance of different methods under the same metrics, and explore the underlying mechanism of backdoors in neural networks.
+\item {\em Understanding the Security Risks of AutoML}\\
+This project reveals that Neural-Architecture-Search (NAS) introduces new security risks: compared with manually-designed models, NAS-generated models tend to suffer greater vulnerabilities to a variety of malicious attacks. The findings are published in USENIX Security'22. 
 
-\item Detection of Black-box Adversarial Attacks\\
-The project develops a novel estimation model to infer the adversary intent of black-box adversarial attacks.
+\item {\em Inferring the Adversary's Intent in Black-box Adversarial Attacks}\\
+This project develops a novel estimation model to infer the adversary's intent (e.g., the target class desired by the adversary) during the early stages of black-box adversarial attacks. The findings are published in ACM KDD'20. 
 
-\item Adversarial Vulnerabilities in Neural Networks\\
-My work explores the mutual reinforcement effects between two attack vectors in deep learning: adversarial inputs and poisoned models, and designs a unified framework to control the trade-offs. The framework can be easily extended to the backdoor scenario and lead to a new powerful attack (IMC).
+\item {\em Unifying Adversarial Inputs and Trojan Models}\\
+%\vspace{2pt}
+This project unifies two major attack vectors, adversarial inputs and trojan models, and reveals the intriguing ``mutual reinforcement'' effects: by leveraging one attack vector, the adversary is able to disproportionally amplify the effectiveness of the other. The findings are published in ACM CCS'20. 
 
 \end{enumerate}
 
-\section{E. Open-Sourced Projects}
+\vspace{0.2in} 
+\section{E. Selected Open-Sourced Artifacts}
 \vspace{8pt}
 
-\section{Owner}
-\vspace{8pt}
+% \section{Owner}
+% \vspace{8pt}
+
+
+TrojanZoo: A Unified, Holistic, and Practical Security Evaluation Platform\\
+\url{https://github.com/ain-soph/trojanzoo} \\
+A universal, flexible PyTorch platform to conduct security analysis of attacks and defenses (e.g., adversarial evasion, backdoor injection, model poisoning) on deep neural network models. 
 
 AlpsPlot \\
 \url{https://github.com/ain-soph/alpsplot} \\
-My personal python plotting library of alps-lab style using matplotlib.
+A customizable Python plotting library based on matplotlib.
 
-TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors \\
-\url{https://github.com/ain-soph/trojanzoo} \\
-TrojanZoo provides a universal pytorch platform to conduct security researches (especially backdoor attacks/defenses) of image classification in deep learning. All my research studies are using this powerful library. Docs and unit-tests are still in development.
 
 TrojanZoo Sphinx Theme \\
 \url{https://github.com/ain-soph/trojanzoo_sphinx_theme} \\
-I modify pytorch\_sphinx\_theme, remove auxiliary items and make it a generalized theme. It supports easy customization in your project without touching the package contents.
+A light-weight, customizable theme that generalizes pytorch\_sphinx\_theme. 
+%remove auxiliary items and make it a generalized theme. It supports easy customization in your project without touching the package contents.
 
-\section{Contributor}
-\vspace{8pt}
+% \section{Contributor}
+% \vspace{8pt}
 
-matplotlib; pytorch\_sphinx\_theme; sphinxcontrib-katex; torchvision
+% matplotlib; pytorch\_sphinx\_theme; sphinxcontrib-katex; torchvision
 
 
 \vspace{0.2in} 
-\section{E. Teaching Assistant Experience}
+\section{F. Selected Awards}
 \vspace{8pt}
 
-CYBER 497: Machine Learning Security (Penn State), 2020 Spring
+Poling Scholarship, Nankai University   \hfill 2014
 
-CSE 017: Structured Programming and Data Structures (Lehigh), 2018 Fall
+
+
+\vspace{0.2in} 
+\section{G. Teaching Experience}
+\vspace{8pt}
+
+CYBER 497: Machine Learning Security (Penn State), Guest Lecturer, 2020 Spring
+
+CSE 017: Structured Programming and Data Structures (Lehigh), Teaching Assistant, 2018 Fall
+
+
+
 
 
 \end{resume} 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
