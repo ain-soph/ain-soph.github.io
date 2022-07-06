@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 pubs:
   - author: __Ren Pang__, Zheng Zhang, Xiangshan Gao, Zhaohan Xi, Shouling Ji, Cheng Peng, Ting Wang
-    title: "TROJANZOO: Everything you ever wanted to know about neural backdoors (but were afraid to ask)"
+    title: "TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors"
     booktitle: "IEEE EuroS&P'22"
     url: "https://arxiv.org/abs/2012.09302"
   - author: __Ren Pang__, Zhaohan Xi, Shouling Ji, Xiapu Luo, Ting Wang
