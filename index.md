@@ -31,9 +31,14 @@ I'm trying to participate in the development and maintenance of many open-source
 
 - [matplotlib](https://github.com/matplotlib/matplotlib)  
   [<span style="color:#792fe4">#20101</span>](https://github.com/matplotlib/matplotlib/pull/20101)
+- [torchvision](https://github.com/pytorch/vision)  
+  [<span style="color:#792fe4">#3215</span>](https://github.com/pytorch/vision/pull/3215), [<span style="color:#792fe4">#6266</span>](https://github.com/pytorch/vision/pull/6266)
 - [pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme)  
   [<span style="color:#792fe4">#88</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)
 - [sphinxcontrib-katex](https://github.com/hagenw/sphinxcontrib-katex)  
   [<span style="color:#792fe4">#29</span>](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
-- [torchvision](https://github.com/pytorch/vision)  
-  [<span style="color:#792fe4">#3215</span>](https://github.com/pytorch/vision/pull/3215)
+- [functorch](https://github.com/pytorch/functorch)  
+  [<span style="color:#792fe4">#788</span>](https://github.com/pytorch/functorch/issues/788)
+- Others  
+  [<span style="color:#792fe4">D-X-Y/NATS-Bench/#40</span>](https://github.com/D-X-Y/NATS-Bench/pull/40), [<span style="color:#792fe4">D-X-Y/AutoDL-Projects/#121</span>](https://github.com/D-X-Y/AutoDL-Projects/pull/121)  
+  [<span style="color:#792fe4">DreamtaleCore/Refool/#12</span>](https://github.com/DreamtaleCore/Refool/pull/12)
