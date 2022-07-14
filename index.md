@@ -39,6 +39,6 @@ I'm trying to participate in the development and maintenance of many open-source
   [<span style="color:#792fe4">#29</span>](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
 - [functorch](https://github.com/pytorch/functorch)  
   [<span style="color:#792fe4">#788</span>](https://github.com/pytorch/functorch/issues/788)
-- Others  
+- others  
   [<span style="color:#792fe4">D-X-Y/NATS-Bench/#40</span>](https://github.com/D-X-Y/NATS-Bench/pull/40), [<span style="color:#792fe4">D-X-Y/AutoDL-Projects/#121</span>](https://github.com/D-X-Y/AutoDL-Projects/pull/121)  
   [<span style="color:#792fe4">DreamtaleCore/Refool/#12</span>](https://github.com/DreamtaleCore/Refool/pull/12)
