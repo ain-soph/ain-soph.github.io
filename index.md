@@ -32,7 +32,7 @@ I'm trying to participate in the development and maintenance of many open-source
 - [matplotlib](https://github.com/matplotlib/matplotlib)  
   [<span style="color:#792fe4">#20101</span>](https://github.com/matplotlib/matplotlib/pull/20101)
 - [torchvision](https://github.com/pytorch/vision)  
-  [<span style="color:#792fe4">#3215</span>](https://github.com/pytorch/vision/pull/3215), [<span style="color:#792fe4">#6266</span>](https://github.com/pytorch/vision/pull/6266)
+  [<span style="color:#792fe4">#3215</span>](https://github.com/pytorch/vision/pull/3215), [<span style="color:#792fe4">#6246</span>](https://github.com/pytorch/vision/pull/6246), [<span style="color:#792fe4">#6266</span>](https://github.com/pytorch/vision/pull/6266)
 - [pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme)  
   [<span style="color:#792fe4">#88</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)
 - [sphinxcontrib-katex](https://github.com/hagenw/sphinxcontrib-katex)  
