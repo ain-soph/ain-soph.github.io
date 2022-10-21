@@ -44,8 +44,8 @@ preprints:
 {% for pub in page.pubs %}
 {% unless pub.hidden %}
   - {% if pub.url %}<a href="{{pub.url}}"><span style="color:#ee4c2c">{{pub.title}}</span></a>
-    {% else %}<span style="color:#ee4c2c">{{pub.title}}</span>{% endif %}
-    <br>{{pub.author}}<br>
+    {% else %}<span style="color:#ee4c2c">{{pub.title}}</span>{% endif %}<br>
+    {{pub.author}}<br>
     <span style="color:#792fe4">{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br></span>
     {% if pub.slides %}[Slides]({{pub.slides}}){% endif %}
     {% if pub.bibtex %}[Bibtex]({{pub.bibtex}}){% endif %}
@@ -58,8 +58,8 @@ preprints:
 {% for preprint in page.preprints %}
 {% unless preprint.hidden %}
   - {% if preprint.url %}<a href="{{preprint.url}}"><span style="color:#ee4c2c">{{preprint.title}}</span></a>
-    {% else %}<span style="color:#ee4c2c">{{preprint.title}}</span>{% endif %}
-    <br>{{preprint.author}}<br>
+    {% else %}<span style="color:#ee4c2c">{{preprint.title}}</span>{% endif %}<br>
+    {{preprint.author}}<br>
     {% if preprint.slides %}[Slides]({{preprint.slides}}){% endif %}
     {% if preprint.bibtex %}[Bibtex]({{preprint.bibtex}}){% endif %}
 {% endunless %}
