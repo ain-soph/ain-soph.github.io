@@ -1,180 +1,157 @@
-% LaTeX file for resume 
-% This file uses the resume document class (res.cls)
-\documentclass{resume} 
+% -------------------------
+% Resume in Latex
+% Author : Ren Pang
+% Based off of: https://github.com/jakeryang/resume
+% License : MIT
+% ------------------------
 
-\usepackage[T1]{fontenc}
-\usepackage{crimson}
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
-
+\usepackage{fancyhdr}
 \usepackage{url}
 
-\newsectionwidth{0pt}  % So the text is not indented under section headings
-\usepackage{fancyhdr}  % use this package to get a 2 line header
-\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
-\setlength{\headheight}{24pt} % allow room for 2-line header
-\setlength{\headsep}{24pt}  % space between header and text
-\setlength{\headheight}{24pt} % allow room for 2-line header
-\pagestyle{fancy}     % set pagestyle for document
+% fontawesome
+\usepackage{fontawesome5}
+
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underilne
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
 
 
-\rhead{{\it R. Pang}} % put text in header (right side)
-\rfoot{{\it p. \thepage}}
-\cfoot{}                                  % the foot is empty
-\topmargin=-0.5in % start text higher on the page
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+%% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+
+\titleformat{\section}{
+    \bfseries \vspace{2pt} \raggedright \large % header section
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
 
 
 \begin{document}
-\thispagestyle{empty} % this page has no header  
-\name{REN PANG\\[11pt]}% the \\[12pt] adds a blank line after name
+
+\begin{center}
+    \textbf{\Huge Ren Pang} \\ \vspace{5pt}
+    \small \faPhone* \texttt{(484)747--2401} \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope\hspace{2pt}\texttt{ain-soph@live.com} \hspace{1pt} $|$ 
+    \hspace{1pt} \faGithub\hspace{2pt}\texttt{ain-soph.github.io}
+    \\ \vspace{-10pt}
+\end{center}
+
+\section{RESEARCH INTEREST}
+My research focuses on understanding and tackling the challenges arising in the advances of deep learning and artificial intelligence in general, especially about security risks in image classification task.
 
 
-\address{\centerline{College of Information Sciences and Technology, the Pennsylvania State University}\\
-\centerline{{\it Email}: rbp5354@psu.edu \quad {\it Tel}: (484) 747-2401 \quad {\it Web}: \url{https://ain-soph.github.io}}}      
-                                      
-% \address{{\bf Permanent Address} \\ 72 Trolley Lane \\ Utica, NY 13502\\
-%   (315) 493-8621 }
+\section{EDUCATION}
+\begin{tabular*}{\linewidth}{llr@{\extracolsep{\fill}}r}
+    Ph.D., & Information Sciences and Technology, & Pennsylvania State University & 2019--2023 \\
+    BSc., & Mathematics, & Nankai University & 2014--2018
+\end{tabular*}
+% Ph.D., Computer Science and Engineering, Lehigh University (transferred)  \hfill 2018--2019 \\
 
 
-\begin{resume}
- 
-\section{A. Research Interests}
-\vspace{8pt} % provide vertical space between section title and contents
-My current research focuses on understanding and tackling the security and privacy challenges arising in the advances of deep learning and artificial intelligence in general.
-%including adversarial robustness and neural backdoors. Besides, I'm also interested in exploring security issues in other learning tasks, such as neural architecture search (NAS) and lifelong learning.
+\section{EXPERIENCE}
 
-\vspace{0.2in} 
-\section{B. Education Background} 
-\vspace{8pt}
+Software Engineer (Intern), Meta  \hfill 2022 Summer \\
+The work focuses on in-stream ad breaks demonetization during creator onboarding, which detects malicious creators/pages that violate Facebook regulations. During the development, I migrate fix several existing bugs which introduce good but incorrect metric results, extend labels from binary violation to concrete violated policies. SQL and FBlearner are used in the work.
 
-Ph.D., Information Sciences and Technology, Pennsylvania State University  \hfill 2019--2023
+\section{PUBLICATION}
 
-Ph.D., Computer Science and Engineering, Lehigh University (transferred)  \hfill 2018--2019
+\begin{enumerate}[labelsep=15pt, parsep=-4pt]
 
-BSc., Mathematics, Nankai University   \hfill 2014-2018
+    \item A Tale of Evil Twins:\@ Adversarial Inputs versus Poisoned Models,\\
+    \textbf{R. Pang}, H. Shen, X. Zhang, S. Ji, Y. Vorobeychik, X. Luo, A. Liu, and T. Wang,\\
+    Proceedings of {\it the ACM Conference on Computer and Communications Security\/} (\textbf{CCS}), 2020.
+    
+    \item AdvMind:\@ Inferring Adversary Intent of Black-Box Attacks,\\
+    \textbf{R. Pang}, X. Zhang, S. Ji, X. Luo, and T. Wang,\\
+    Proceedings of {\it the ACM SIGKDD Conference on Knowledge Discovery and Data Mining\/} (\textbf{KDD}), 2020.
+    
+    \item i-Algebra:\@ Towards Interactive Interpretability of Deep Neural Networks,\\
+    X. Zhang, \textbf{R. Pang}, S. Ji, F. Ma, and T. Wang,\\
+    Proceedings of {\it the AAAI Conference on Artificial Intelligence\/} (\textbf{AAAI}), 2021.
+    
+    \item Graph Backdoor,\\
+    Z. Xi, \textbf{R. Pang}, S. Ji, and T. Wang,\\
+    Proceedings of {\it the USENIX Security Symposium\/} (\textbf{USENIX}), 2021.
+    
+    \item On the Security Risks of AutoML,\\
+    \textbf{R. Pang}, Z. Xi, S. Ji, X. Luo, and T. Wang,\\
+    Proceedings of {\it the USENIX Security Symposium\/} (\textbf{USENIX}), 2022.
+    
+    \item TrojanZoo:\@ Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors,\\
+    \textbf{R. Pang}, Z. Zhang, X. Gao, Z. Xi, S. Ji, P. Cheng, and T. Wang,\\
+    Proceedings of {\it the IEEE European Symposium on Security and Privacy\/} (\textbf{EuroS\&P}), 2022.
+    
+    \item The Dark Side of AutoML:\@ Towards Architectural Backdoor Search,\\
+    \textbf{R. Pang}, C. Li, Z. Xi, S. Ji, T. Wang,\\
+    Arxiv Preprint, 2022.
+    
+    \item Demystifying Self-supervised Trojan Attacks,\\
+    C. Li, \textbf{R. Pang}, Z. Xi, T. Du, S. Ji, Y. Yao, T. Wang,\\
+    Arxiv Preprint, 2022.
+    
+    \item Reasoning over Multi-view Knowledge Graphs,\\
+    Z. Xi, \textbf{R. Pang}, C. Li, T. Du, S. Ji, F. Ma, T. Wang,\\
+    Arxiv Preprint, 2022.
+    
+    \end{enumerate}
+    
 
+\section{OPEN-SOURCED ARTIFACT}
 
-\vspace{0.2in} 
-\section{C. Working Experience}
-\vspace{8pt}
+\begin{enumerate}[labelsep=15pt, parsep=4pt]
 
-
-Software Engineer (Intern), Meta  \hfill 2022.05--2022.08
-
-
-\vspace{0.2in} 
-\section{D. Publications}
-\vspace{24pt}
-
-\begin{enumerate}[labelsep=15pt, parsep=8pt, resume]
-
-\item The Dark Side of AutoML: Towards Architectural Backdoor Search,\\
-\textbf{R. Pang}, C. Li, Z. Xi, S. Ji, T. Wang,\\
-Arxiv Preprint, 2022.
-
-\item Demystifying Self-supervised Trojan Attacks,\\
-C. Li, \textbf{R. Pang}, Z. Xi, T. Du, S. Ji, Y. Yao, T. Wang,\\
-Arxiv Preprint, 2022.
-
-\item Reasoning over Multi-view Knowledge Graphs,\\
-Z. Xi, \textbf{R. Pang}, C. Li, T. Du, S. Ji, F. Ma, T. Wang,\\
-Arxiv Preprint, 2022.
-
-\item TrojanZoo: Towards Unified, Holistic, and Practical Evaluation of Neural Backdoors,\\
-\textbf{R. Pang}, Z. Zhang, X. Gao, Z. Xi, S. Ji, P. Cheng, and T. Wang,\\
-Proceedings of {\it the IEEE European Symposium on Security and Privacy} (EuroS\&P), 2022.
-
-\item On the Security Risks of AutoML,\\
-\textbf{R. Pang}, Z. Xi, S. Ji, X. Luo, and T. Wang,\\
-Proceedings of {\it the USENIX Security Symposium} (USENIX), 2022.
-
-\item Graph Backdoor,\\
-Z. Xi, \textbf{R. Pang}, S. Ji, and T. Wang,\\
-Proceedings of {\it the USENIX Security Symposium} (USENIX), 2021.
-
-\item i-Algebra: Towards Interactive Interpretability of Deep Neural Networks,\\
-X. Zhang, \textbf{R. Pang}, S. Ji, F. Ma, and T. Wang,\\
-Proceedings of {\it the AAAI Conference on Artificial Intelligence} (AAAI), 2021.
-
-\item AdvMind: Inferring Adversary Intent of Black-Box Attacks,\\
-\textbf{R. Pang}, X. Zhang, S. Ji, X. Luo, and T. Wang,\\
-Proceedings of {\it the ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (KDD), 2020.
-
-\item A Tale of Evil Twins: Adversarial Inputs versus Poisoned Models,\\
-\textbf{R. Pang}, H. Shen, X. Zhang, S. Ji, Y. Vorobeychik, X. Luo, A. Liu, and T. Wang,\\
-Proceedings of {\it the ACM Conference on Computer and Communications Security} (CCS), 2020.
-
-\end{enumerate}
-
-\vspace{0.2in} 
-\section{E. Research Projects}
-\vspace{24pt}
-
-\begin{enumerate}[labelsep=18pt, parsep=8pt]
-
-\item {\em Embedding Vulnerabilities into Neural-Architecture-Search}\\
-This project explores the feasibility to conduct backdoor attack during the NAS process as a new attack vector.
-
-\item {\em Bridging Auto-Augment and Neural-Architecture-Search}\\
-This ongoing project aims to bridge Auto-Augment and NAS, two major AutoML tasks, and also explore the potential security risks in their integration.
-
-\item {\em Encapsulating Attack Robustness}\\
-This ongoing project aims to achieve efficient and robust learning via synthesizing compressed versions of given datasets, on which the training bestows models with both accuracy and robustness.  
-
-\item {\em Evaluating Neural Backdoors}\\
-This project builds a universal platform (TrojanZoo) that incorporate the state-of-the-art work on neural backdoors, conducts a comprehensive evaluation of existing attacks and models, and exposes the intricate design spectrum for both attackers and defenders. The findings are published in IEEE EuroS\&P'22.
-
-\item {\em Understanding the Security Risks of AutoML}\\
-This project reveals that Neural-Architecture-Search (NAS) introduces new security risks: compared with manually-designed models, NAS-generated models tend to suffer greater vulnerabilities to a variety of malicious attacks. The findings are published in USENIX Security'22. 
-
-\item {\em Inferring the Adversary's Intent in Black-box Adversarial Attacks}\\
-This project develops a novel estimation model to infer the adversary's intent (e.g., the target class desired by the adversary) during the early stages of black-box adversarial attacks. The findings are published in ACM KDD'20. 
-
-\item {\em Unifying Adversarial Inputs and Trojan Models}\\
-This project unifies two major attack vectors, adversarial inputs and trojan models, and reveals the intriguing ``mutual reinforcement'' effects: by leveraging one attack vector, the adversary is able to disproportionally amplify the effectiveness of the other. The findings are published in ACM CCS'20. 
+    \item TrojanZoo\\
+    \url{https://ain-soph.github.io/trojanzoo} \\
+    A universal, flexible PyTorch platform to conduct security analysis of attacks and defenses (e.g., adversarial evasion, backdoor injection, model poisoning) on deep neural network models. 
+    
+    \item TrojanZoo Sphinx Theme \\
+    \url{https://ain-soph.github.io/trojanzoo_sphinx_theme} \\
+    A light-weight, customizable theme that generalizes pytorch\_sphinx\_theme.
+    
+    \item AlpsPlot \\
+    \url{https://ain-soph.github.io/alpsplot} \\
+    A customizable Python plotting library based on matplotlib.
 
 \end{enumerate}
 
-\vspace{0.2in} 
-\section{F. Selected Open-Sourced Artifacts}
-\vspace{8pt}
-
-% \section{Owner}
-% \vspace{8pt}
-
-
-TrojanZoo: A Unified, Holistic, and Practical Security Evaluation Platform\\
-\url{https://github.com/ain-soph/trojanzoo} \\
-A universal, flexible PyTorch platform to conduct security analysis of attacks and defenses (e.g., adversarial evasion, backdoor injection, model poisoning) on deep neural network models. 
-
-AlpsPlot \\
-\url{https://github.com/ain-soph/alpsplot} \\
-A customizable Python plotting library based on matplotlib.
-
-
-TrojanZoo Sphinx Theme \\
-\url{https://github.com/ain-soph/trojanzoo_sphinx_theme} \\
-A light-weight, customizable theme that generalizes pytorch\_sphinx\_theme.
-
-
-\vspace{0.2in} 
-\section{G. Selected Awards}
-\vspace{8pt}
-
-Poling Scholarship, Nankai University   \hfill 2014
-
-
-
-\vspace{0.2in} 
-\section{H. Teaching Experience}
-\vspace{8pt}
-
-CYBER 497: Machine Learning Security (Penn State), Guest Lecturer, 2020 Spring
-
-CSE 017: Structured Programming and Data Structures (Lehigh), Teaching Assistant, 2018 Fall
-
-
-
-
-
-\end{resume} 
 \end{document}
