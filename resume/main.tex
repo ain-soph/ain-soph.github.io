@@ -13,7 +13,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
-\usepackage{url}
+\usepackage{hyperref}
 
 % fontawesome
 \usepackage{fontawesome5}
@@ -29,7 +29,7 @@
 \DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
 \DeclareTextFontCommand{\texteb}{\ebseries}
 
-% custom underilne
+% custom underline
 \usepackage{contour}
 \usepackage[normalem]{ulem}
 \renewcommand{\ULdepth}{1.8pt}
@@ -39,10 +39,14 @@
   \llap{\contour{white}{#1}}%
 }
 
+% Render a link with its symbol
+% Usage; \sociallink{<icon>}{<label>}
+\newcommand{\sociallink}[3]{\mbox{{#1}\hspace{0.5em}\href{#2}{#3}\hspace{1em}}}
+\newcommand*{\website}[1]{\sociallink{\faGithub}{#1}{#1}}
 
 % custom font: helvetica-style
 \usepackage{tgheros}
-\renewcommand*\familydefault{\sfdefault} 
+% \renewcommand*\familydefault{\sfdefault} 
 %% Only if the base font of the document is to be sans serif
 \usepackage[T1]{fontenc}
 
@@ -60,40 +64,36 @@
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
-
 \titleformat{\section}{
     \bfseries \vspace{2pt} \raggedright \large % header section
-}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
-
+}{}{0em}{}[\color{dark-grey} {\titlerule[1pt]} \vspace{-4pt}]
 
 \begin{document}
 
 \begin{center}
     \textbf{\Huge Ren Pang} \\ \vspace{5pt}
-    \small \faPhone* \texttt{(484)747--2401} \hspace{1pt} $|$
-    \hspace{1pt} \faEnvelope\hspace{2pt}\texttt{ain-soph@live.com} \hspace{1pt} $|$ 
-    \hspace{1pt} \faGithub\hspace{2pt}\texttt{ain-soph.github.io}
-    \\ \vspace{-10pt}
+    \small \faPhone* (484)747--2401 \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope\hspace{2pt}ain-soph@live.com \hspace{1pt} $|$ 
+    \hspace{1pt} \faGithub\hspace{2pt}ain-soph.github.io
+    \\ \vspace{0pt}
 \end{center}
 
-\section{RESEARCH INTEREST}
-My research focuses on understanding and tackling the challenges arising in the advances of deep learning and artificial intelligence in general, especially about security risks in image classification task.
-
+\noindent
+My research focuses on developing safe, robust and resilient machine/deep learning applications. Experienced in addressing the security concerns in image classification, AutoML, etc.
 
 \section{EDUCATION}
-\begin{tabular*}{\linewidth}{llr@{\extracolsep{\fill}}r}
-    Ph.D., & Information Sciences and Technology, & Pennsylvania State University & 2019--2023 \\
-    BSc., & Mathematics, & Nankai University & 2014--2018
-\end{tabular*}
+Ph.D. \hspace{1em} \textit{Information Sciences and Technology} \hspace{1em} Pennsylvania State University \hfill 2019--2023 \\
+B.Sc. \hspace{1em} \textit{Mathematics} \hspace{11.8em} Nankai University \hfill 2014--2018
 % Ph.D., Computer Science and Engineering, Lehigh University (transferred)  \hfill 2018--2019 \\
 
+\section{\textsc{EXPERIENCE}}
+Software Engineer (Intern), \textit{Meta}  \hfill 2022 Summer\vspace{3pt}\\
+\textbf{Pages and Groups Integrity}\\
+Introduce new classification model for malicious page detection. It mitigates the impact of incorrect label annotation, and provides interpretable classification outputs for better user experience. \vspace{0.8em}\\
+\textbf{TorchVision}\\
+Provide the official TorchVision implementation of SwinTransformerV2.
 
-\section{EXPERIENCE}
-
-Software Engineer (Intern), Meta  \hfill 2022 Summer \\
-The work focuses on in-stream ad breaks demonetization during creator onboarding, which detects malicious creators/pages that violate Facebook regulations. During the development, I fix several existing bugs which introduce good but incorrect metric results, extend labels from binary violation to concrete violated policies. SQL and FBlearner are used in the work.
-
-\section{PUBLICATION}
+\section{PUBLICATIONS}
 
 \begin{enumerate}[labelsep=15pt, parsep=-4pt]
 
@@ -136,22 +136,30 @@ The work focuses on in-stream ad breaks demonetization during creator onboarding
     \end{enumerate}
     
 
-\section{OPEN-SOURCED ARTIFACT}
+\section{OPEN-SOURCE CONTRIBUTIONS}
 
 \begin{enumerate}[labelsep=15pt, parsep=4pt]
 
-    \item TrojanZoo\\
-    \url{https://ain-soph.github.io/trojanzoo} \\
-    A universal, flexible PyTorch platform to conduct security analysis of attacks and defenses (e.g., adversarial evasion, backdoor injection, model poisoning) on deep neural network models. 
+    \item \textbf{TrojanZoo} \hfill \website{https://github.com/ain-soph/trojanzoo}
+    \vspace{0.3em}\\
+    Offer a universal, flexible PyTorch platform to conduct security analysis of attacks and defenses on deep neural network models.
     
-    \item TrojanZoo Sphinx Theme \\
-    \url{https://ain-soph.github.io/trojanzoo_sphinx_theme} \\
-    A light-weight, customizable theme that generalizes pytorch\_sphinx\_theme.
-    
-    \item AlpsPlot \\
-    \url{https://ain-soph.github.io/alpsplot} \\
-    A customizable Python plotting library based on matplotlib.
+    \item \textbf{TorchVision.SwinTransformerV2} \hfill
+    \website{https://github.com/pytorch/vision/pull/6246}
+    \vspace{0.3em}\\
+    Provide TorchVision official implementation of SwinTransformerV2.
 
+    \item \textbf{TorchVision.AutoAugmentation} \hfill
+    \website{https://github.com/pytorch/vision/pull/6609}
+    \vspace{0.3em}\\
+    Provide TorchVision official implementation of AutoAugmentation for object detection. This work is based on the next generation PyTorch APIs.
+
+    \item \textbf{Matplotlib.Text} \hfill
+    \website{https://github.com/matplotlib/matplotlib/pull/20101}
+    \vspace{0.3em}\\
+    Fix Text class bug when font argument is provided without math\_fontfamily.
+    
+    
 \end{enumerate}
 
 \end{document}
