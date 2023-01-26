@@ -31,6 +31,7 @@ pubs:
 preprints:
   - author: __Ren Pang__, Changjiang Li, Zhaohan Xi, Shouling Ji, Ting Wang
     title: "The Dark Side of AutoML: Towards Architectural Backdoor Search"
+    url: "https://arxiv.org/abs/2210.12179"
   - author: Changjiang Li, __Ren Pang__, Zhaohan Xi, Tianyu Du, Shouling Ji, Yuan Yao, Ting Wang
     title: "Demystifying Self-supervised Trojan Attacks"
     url: "https://arxiv.org/abs/2210.07346"
