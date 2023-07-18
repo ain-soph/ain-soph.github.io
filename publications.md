@@ -3,6 +3,14 @@ layout: page
 permalink: /publications/index.html
 title: Publications
 pubs:
+  - author: Changjiang Li, __Ren Pang__, Zhaohan Xi, Tianyu Du, Shouling Ji, Yuan Yao, Ting Wang
+    title: "Demystifying Self-supervised Trojan Attacks"
+    booktitle: "ICCV'23"
+    url: "https://arxiv.org/abs/2210.07346"
+  - author: Zhaohan Xi, Tianyu Du, Changjiang Li, __Ren Pang__, Shouling Ji, Xiapu Luo, Xusheng Xiao, Fenglong Ma, Ting Wang
+    title: "On the Security Risks of Knowledge Graph Reasoning"
+    booktitle: "USENIX Security'23"
+    url: "https://arxiv.org/abs/2305.02383"
   - author: __Ren Pang__, Changjiang Li, Zhaohan Xi, Shouling Ji, Ting Wang
     title: "The Dark Side of AutoML: Towards Architectural Backdoor Search"
     booktitle: "ICLR'23"
@@ -33,9 +41,6 @@ pubs:
     url: "https://arxiv.org/abs/1911.01559"
 
 preprints:
-  - author: Changjiang Li, __Ren Pang__, Zhaohan Xi, Tianyu Du, Shouling Ji, Yuan Yao, Ting Wang
-    title: "Demystifying Self-supervised Trojan Attacks"
-    url: "https://arxiv.org/abs/2210.07346"
   - author: Zhaohan Xi, __Ren Pang__, Changjiang Li, Tianyu Du, Shouling Ji, Fenglong Ma, Ting Wang
     title: "Reasoning over Multi-view Knowledge Graphs"
     url: "https://arxiv.org/abs/2209.13702"
