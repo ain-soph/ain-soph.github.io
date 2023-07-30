@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 pubs:
   - author: Changjiang Li, __Ren Pang__, Zhaohan Xi, Tianyu Du, Shouling Ji, Yuan Yao, Ting Wang
-    title: "Demystifying Self-supervised Trojan Attacks"
+    title: "An Embarrassingly Simple Backdoor Attack against Self-supervised Learning"
     booktitle: "ICCV'23"
     url: "https://arxiv.org/abs/2210.07346"
   - author: Zhaohan Xi, Tianyu Du, Changjiang Li, __Ren Pang__, Shouling Ji, Xiapu Luo, Xusheng Xiao, Fenglong Ma, Ting Wang
