@@ -3,6 +3,10 @@ layout: page
 permalink: /publications/index.html
 title: Publications
 pubs:
+
+  - author: Changjiang Li, __Ren Pang__, Bochuan Cao, Jinghui Chen, Shouling Ji, Ting Wang
+    title: "On the Difficulty of Defending Contrastive Learning against Backdoor Attacks"
+    booktitle: "USENIX Security'24"
   - author: Changjiang Li, __Ren Pang__, Zhaohan Xi, Tianyu Du, Shouling Ji, Yuan Yao, Ting Wang
     title: "An Embarrassingly Simple Backdoor Attack against Self-supervised Learning"
     booktitle: "ICCV'23"
