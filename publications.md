@@ -4,6 +4,9 @@ permalink: /publications/index.html
 title: Publications
 pubs:
 
+  - author: Zhaohan Xi, Tianyu Du, Changjiang Li, __Ren Pang__, Shouling Ji, Jinghui Chen, Fenglong Ma, Ting Wang
+    title: "Defending Pre-trained Language Models as Few-shot Learners Against Backdoor Attacks"
+    booktitle: "NeurIPS'24"
   - author: Changjiang Li, __Ren Pang__, Bochuan Cao, Jinghui Chen, Shouling Ji, Ting Wang
     title: "On the Difficulty of Defending Contrastive Learning against Backdoor Attacks"
     booktitle: "USENIX Security'24"
