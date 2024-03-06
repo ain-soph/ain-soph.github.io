@@ -7,9 +7,11 @@ pubs:
   - author: Zhaohan Xi, Tianyu Du, Changjiang Li, __Ren Pang__, Shouling Ji, Jinghui Chen, Fenglong Ma, Ting Wang
     title: "Defending Pre-trained Language Models as Few-shot Learners Against Backdoor Attacks"
     booktitle: "NeurIPS'24"
+    url: "https://arxiv.org/abs/2309.13256"
   - author: Changjiang Li, __Ren Pang__, Bochuan Cao, Jinghui Chen, Shouling Ji, Ting Wang
     title: "On the Difficulty of Defending Contrastive Learning against Backdoor Attacks"
     booktitle: "USENIX Security'24"
+    url: "https://arxiv.org/abs/2312.09057"
   - author: Changjiang Li, __Ren Pang__, Zhaohan Xi, Tianyu Du, Shouling Ji, Yuan Yao, Ting Wang
     title: "An Embarrassingly Simple Backdoor Attack against Self-supervised Learning"
     booktitle: "ICCV'23"
