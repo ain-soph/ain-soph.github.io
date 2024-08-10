@@ -32,8 +32,8 @@ bing_verify:
 links:
   - title: GitHub
     url: /
-  - title: About Me
-    url: /about/
+  # - title: About Me
+  #   url: /about/
   - title: Publications
     url: /publications/
   - title: Resume

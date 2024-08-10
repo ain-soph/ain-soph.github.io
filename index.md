@@ -29,26 +29,28 @@ Published on [docker](https://hub.docker.com/r/local0state/base) and [github pac
 ## As a Contributor
 I'm trying to participate in the development and maintenance of many open-source packages.
 
+- [pytorch/vision](https://github.com/pytorch/vision): PyTorch official library for computer vision  
+  bugfix: [<span style="color:#792fe4">#6266</span>](https://github.com/pytorch/vision/pull/6266)  
+  feature:
+    - [<span style="color:#792fe4">**#6246**</span>](https://github.com/pytorch/vision/pull/6246)(400 Lines): Implement Swin Transformer V2
+    - [<span style="color:#792fe4">#3215</span>](https://github.com/pytorch/vision/pull/3215)  
+    <!-- - [<span style="color:#792fe4">**#6609**</span>](https://github.com/pytorch/vision/pull/6609)(400 Lines): Implement AutoAugment for detection -->
+- [matplotlib](https://github.com/matplotlib/matplotlib): well-known python plotting library used by most researchers  
+  bugfix: [<span style="color:#792fe4">#20101</span>](https://github.com/matplotlib/matplotlib/pull/20101)
+- [triton](https://github.com/triton-lang/triton): OpenAI's inference backend compiler used by PyTorch.
+  bugfix: [<span style="color:#792fe4">#4462</span>](https://github.com/triton-lang/triton/pull/4462)
+- [pytorch/pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme): PyTorch official documentation theme  
+  bugfix: [<span style="color:#792fe4">#88</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)  
+  feature: [<span style="color:#792fe4">#168</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/168)
 - [huggingface/accelerate](https://github.com/huggingface/accelerate): well-known acceleration library in transformers  
   bugfix: [<span style="color:#792fe4">#1595</span>](https://github.com/huggingface/accelerate/pull/1595)
 - [huggingface/peft](https://github.com/huggingface/peft): well-known parameter-efficient fine-tuning library in transformers  
   bugfix: [<span style="color:#792fe4">#644</span>](https://github.com/huggingface/peft/pull/644)
-- [matplotlib](https://github.com/matplotlib/matplotlib): well-known python plotting library used by most researchers  
-  bugfix: [<span style="color:#792fe4">#20101</span>](https://github.com/matplotlib/matplotlib/pull/20101)
 - [pytorch/functorch](https://github.com/pytorch/functorch): PyTorch official JAX-like composable function transforms  
   bugfix: [<span style="color:#792fe4">#788</span>](https://github.com/pytorch/functorch/pull/788)
-- [pytorch/pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme): PyTorch official documentation theme  
-  bugfix: [<span style="color:#792fe4">#88</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)  
-  feature: [<span style="color:#792fe4">#168</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/168)
-- [pytorch/vision](https://github.com/pytorch/vision): PyTorch official library for computer vision  
-  bugfix: [<span style="color:#792fe4">#6266</span>](https://github.com/pytorch/vision/pull/6266)  
-  feature:
-    - [<span style="color:#792fe4">#3215</span>](https://github.com/pytorch/vision/pull/3215)  
-    - [<span style="color:#792fe4">**#6246**</span>](https://github.com/pytorch/vision/pull/6246)(400 Lines): Implement Swin Transformer V2
-    - [<span style="color:#792fe4">**#6609**</span>](https://github.com/pytorch/vision/pull/6609)(400 Lines): Implement AutoAugment for detection
 - [sphinxcontrib-katex](https://github.com/hagenw/sphinxcontrib-katex): katex plugin for math support in sphinx documentation  
   [<span style="color:#792fe4">#29</span>](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
-- others  
+<!-- - others  
   [<span style="color:#792fe4">D-X-Y/NATS-Bench/#40</span>](https://github.com/D-X-Y/NATS-Bench/pull/40)  
   [<span style="color:#792fe4">D-X-Y/AutoDL-Projects/#121</span>](https://github.com/D-X-Y/AutoDL-Projects/pull/121)  
-  [<span style="color:#792fe4">DreamtaleCore/Refool/#12</span>](https://github.com/DreamtaleCore/Refool/pull/12)
+  [<span style="color:#792fe4">DreamtaleCore/Refool/#12</span>](https://github.com/DreamtaleCore/Refool/pull/12) -->
