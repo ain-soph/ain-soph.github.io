@@ -4,6 +4,10 @@ permalink: /publications/index.html
 title: Publications
 pubs:
 
+  - author: Changjiang Li, __Ren Pang__, Bochuan Cao, Jinghui Chen, Fenglong Ma, Shouling Ji, Ting Wang
+    title: "Watch the Watcher! Backdoor Attacks on Security-Enhancing Diffusion Models"
+    booktitle: "USENIX Security'25"
+    url: "https://arxiv.org/abs/2406.09669"
   - author: Changjiang Li, __Ren Pang__, Bochuan Cao, Jinghui Chen, Shouling Ji, Ting Wang
     title: "On the Difficulty of Defending Contrastive Learning against Backdoor Attacks"
     booktitle: "USENIX Security'24"

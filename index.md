@@ -37,7 +37,7 @@ I'm trying to participate in the development and maintenance of many open-source
     <!-- - [<span style="color:#792fe4">**#6609**</span>](https://github.com/pytorch/vision/pull/6609)(400 Lines): Implement AutoAugment for detection -->
 - [matplotlib](https://github.com/matplotlib/matplotlib): well-known python plotting library used by most researchers  
   bugfix: [<span style="color:#792fe4">#20101</span>](https://github.com/matplotlib/matplotlib/pull/20101)
-- [triton](https://github.com/triton-lang/triton): OpenAI's inference backend compiler used by PyTorch.
+- [triton](https://github.com/triton-lang/triton): OpenAI's inference backend compiler used by PyTorch.  
   bugfix: [<span style="color:#792fe4">#4462</span>](https://github.com/triton-lang/triton/pull/4462)
 - [pytorch/pytorch_sphinx_theme](https://github.com/pytorch/pytorch_sphinx_theme): PyTorch official documentation theme  
   bugfix: [<span style="color:#792fe4">#88</span>](https://github.com/pytorch/pytorch_sphinx_theme/pull/88)  
@@ -49,7 +49,7 @@ I'm trying to participate in the development and maintenance of many open-source
 - [pytorch/functorch](https://github.com/pytorch/functorch): PyTorch official JAX-like composable function transforms  
   bugfix: [<span style="color:#792fe4">#788</span>](https://github.com/pytorch/functorch/pull/788)
 - [sphinxcontrib-katex](https://github.com/hagenw/sphinxcontrib-katex): katex plugin for math support in sphinx documentation  
-  [<span style="color:#792fe4">#29</span>](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
+  bugfix: [<span style="color:#792fe4">#29</span>](https://github.com/hagenw/sphinxcontrib-katex/issues/29)
 <!-- - others  
   [<span style="color:#792fe4">D-X-Y/NATS-Bench/#40</span>](https://github.com/D-X-Y/NATS-Bench/pull/40)  
   [<span style="color:#792fe4">D-X-Y/AutoDL-Projects/#121</span>](https://github.com/D-X-Y/AutoDL-Projects/pull/121)  
